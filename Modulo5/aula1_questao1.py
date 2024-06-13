@@ -1,0 +1,5 @@
+num1 = float(input("Insira o primeiro número decimal: "))
+num2 = float(input("Insira o segundo número decimal: "))
+diferenca_absoluta = abs(num1 - num2)
+diferenca_arredondada = round(diferenca_absoluta, 2)
+print(f"A diferença absoluta arredondada é: {diferenca_arredondada}")
